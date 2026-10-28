@@ -1,0 +1,19 @@
+@"
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ipynb_checkpoints/
+data/
+**/data/
+*.pt
+*.pth
+*.ckpt
+"@ | Set-Content .gitignore
+src/pneumreliab.egg-info/

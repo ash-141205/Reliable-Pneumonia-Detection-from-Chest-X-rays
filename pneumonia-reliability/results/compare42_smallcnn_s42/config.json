@@ -1,0 +1,26 @@
+{
+  "arch": "smallcnn",
+  "seed": 42,
+  "epochs": 4,
+  "batch_size": 32,
+  "lr": 0.001,
+  "patience": 3,
+  "augment": true,
+  "class_weight": true,
+  "pretrained": true,
+  "num_workers": 0,
+  "T": 0.9034995339630965,
+  "env": {
+    "python": "3.11.9",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "sklearn": "1.9.1",
+    "cuda": false,
+    "gpu": null
+  },
+  "n": {
+    "train": 4182,
+    "val": 837,
+    "test": 837
+  }
+}
